@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3CFC4D27BBE41200A6C93B /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFC4C27BBE41200A6C93B /* ZoomViewController.swift */; };
 		3B7D1D3027B7B018006C4F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D1D2F27B7B018006C4F7D /* AppDelegate.swift */; };
 		3B7D1D3227B7B018006C4F7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D1D3127B7B018006C4F7D /* SceneDelegate.swift */; };
 		3B7D1D3427B7B018006C4F7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D1D3327B7B018006C4F7D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B3CFC4C27BBE41200A6C93B /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		3B7D1D2C27B7B018006C4F7D /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7D1D2F27B7B018006C4F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B7D1D3127B7B018006C4F7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				3B7D1D2F27B7B018006C4F7D /* AppDelegate.swift */,
 				3B7D1D3127B7B018006C4F7D /* SceneDelegate.swift */,
 				3B7D1D3327B7B018006C4F7D /* ViewController.swift */,
+				3B3CFC4C27BBE41200A6C93B /* ZoomViewController.swift */,
 				3B7D1D3527B7B018006C4F7D /* Main.storyboard */,
 				3B7D1D3827B7B019006C4F7D /* Assets.xcassets */,
 				3B7D1D3A27B7B019006C4F7D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				3B7D1D3427B7B018006C4F7D /* ViewController.swift in Sources */,
 				3B7D1D3027B7B018006C4F7D /* AppDelegate.swift in Sources */,
 				3B7D1D3227B7B018006C4F7D /* SceneDelegate.swift in Sources */,
+				3B3CFC4D27BBE41200A6C93B /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
