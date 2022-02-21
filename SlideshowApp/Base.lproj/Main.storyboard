@@ -32,7 +32,7 @@
                                     <action selector="nextSlide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8P-VY-Hkz"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NTB-uX-4br">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NTB-uX-4br">
                                 <rect key="frame" x="50" y="248" width="314" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="ihN-g1-9td"/>
@@ -61,6 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="NTB-uX-4br" firstAttribute="leading" secondItem="jVW-5W-Dx9" secondAttribute="leading" id="81D-M2-5NZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bhD-A6-ylG" secondAttribute="bottom" constant="50" id="8Yf-0C-mDn"/>
                             <constraint firstItem="B2C-1z-Xju" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Tz-2d-Pww"/>
                             <constraint firstItem="NTB-uX-4br" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dg6-ac-vOm"/>
@@ -70,13 +71,15 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B2C-1z-Xju" secondAttribute="bottom" constant="50" id="OuF-Oi-1Ke"/>
                             <constraint firstItem="8pk-cB-Mxy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="PPX-Ah-ken"/>
                             <constraint firstItem="jVW-5W-Dx9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kQ0-Fm-KP4"/>
+                            <constraint firstItem="NTB-uX-4br" firstAttribute="trailing" secondItem="jVW-5W-Dx9" secondAttribute="trailing" id="ruj-8w-Ev6"/>
+                            <constraint firstItem="jVW-5W-Dx9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xdK-GE-mZ3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bhD-A6-ylG" secondAttribute="trailing" constant="50" id="yN4-kR-yFu"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ForwardButton" destination="bhD-A6-ylG" id="Sl8-QD-Egc"/>
-                        <outlet property="ReverseButton" destination="8pk-cB-Mxy" id="M9v-mF-LJK"/>
+                        <outlet property="forwardButton" destination="bhD-A6-ylG" id="Sl8-QD-Egc"/>
                         <outlet property="imageView" destination="NTB-uX-4br" id="toG-Lk-exX"/>
+                        <outlet property="reverseButton" destination="8pk-cB-Mxy" id="M9v-mF-LJK"/>
                         <outlet property="startButton" destination="B2C-1z-Xju" id="I0X-OL-czl"/>
                     </connections>
                 </viewController>

@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     // outletの接続
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var ReverseButton: UIButton!
-    @IBOutlet weak var ForwardButton: UIButton!
+    @IBOutlet weak var reverseButton: UIButton!
+    @IBOutlet weak var forwardButton: UIButton!
     
     // 配列に指定するindex番号を宣言
     var nowIndex:Int = 0
@@ -42,8 +42,8 @@ class ViewController: UIViewController {
             // ボタンの名前を再生に直しておく
             startButton.setTitle("再生", for: .normal)
             //進む・戻るButtonを有効化
-            ReverseButton.isEnabled = true
-            ForwardButton.isEnabled = true
+            reverseButton.isEnabled = true
+            forwardButton.isEnabled = true
         }
         // segueから遷移先のZoomViewControllerを取得する
         if segue.identifier == "toNext" {
@@ -90,8 +90,8 @@ class ViewController: UIViewController {
         if (timer == nil) {
             
             //進む・戻るButtonを無効化
-            ReverseButton.isEnabled = false
-            ForwardButton.isEnabled = false
+            reverseButton.isEnabled = false
+            forwardButton.isEnabled = false
             
             // 再生時の処理を実装
             // タイマーをセットする
@@ -112,8 +112,8 @@ class ViewController: UIViewController {
             startButton.setTitle("再生", for: .normal)
             
             //進む・戻るButtonを有効化
-            ReverseButton.isEnabled = true
-            ForwardButton.isEnabled = true
+            reverseButton.isEnabled = true
+            forwardButton.isEnabled = true
             
         }
         
